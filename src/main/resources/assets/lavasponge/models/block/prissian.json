@@ -1,0 +1,7 @@
+{
+  "parent": "builtin/generated",
+  "textures": {
+    "particle": "lavasponge:block/prissian",
+    "generated": "lavasponge:block/prissian"
+  }
+}

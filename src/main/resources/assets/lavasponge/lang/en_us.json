@@ -1,5 +1,8 @@
 {
   "itemGroup.lavasponge": "Lava Sponge",
   "block.lavasponge.lava_sponge": "Lava Sponge",
-  "block.lavasponge.lava_sponge_wet": "Wet Lava Sponge"
+  "block.lavasponge.lava_sponge_wet": "Wet Lava Sponge",
+  "block.lavasponge.prissian": "Prissian",
+  "block.lavasponge.magmarine": "Magmarine",
+  "block.lavasponge.glowstone": "Glowstone"
 }

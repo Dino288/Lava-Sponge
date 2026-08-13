@@ -1,0 +1,7 @@
+{
+  "parent": "builtin/generated",
+  "textures": {
+    "particle": "lavasponge:block/glowstone",
+    "generated": "lavasponge:block/glowstone"
+  }
+}

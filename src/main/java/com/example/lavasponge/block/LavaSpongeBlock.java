@@ -36,7 +36,15 @@ public class LavaSpongeBlock extends Block {
 
     @Override
     protected void neighborChanged(BlockState state, Level level, BlockPos pos, Block neighborBlock, BlockPos neighborPos, boolean movedByPiston) {
-        if (level.getFluidState(neighborPos).is(Fluids.LAVA)) {
+        boolean isLava = false;
+        for (Direction direction : ALL_DIRECTIONS) {
+            BlockPos adjacentPos = pos.relative(direction);
+            if (level.getFluidState(adjacentPos).is(Fluids.LAVA)) {
+                isLava = true;
+                break;
+            }
+        }
+        if (isLava) {
             this.tryAbsorbLava(level, pos);
         }
         super.neighborChanged(state, level, pos, neighborBlock, neighborPos, movedByPiston);
