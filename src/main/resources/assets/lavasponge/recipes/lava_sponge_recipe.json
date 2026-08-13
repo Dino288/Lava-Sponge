@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S L",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:sponge"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "id": "lavasponge:lava_sponge",
+    "count": 1
+  }
+}
