@@ -1,0 +1,30 @@
+# Lava Sponge Mod
+
+A Minecraft mod for NeoForge that adds unique sponge-based blocks with interesting mechanics.
+
+## Features
+
+- **Lava Sponge** - Absorbs lava in the world, turning it back into air. Right-click to place and it will automatically suck up nearby lava.
+- **Wet Lava Sponge** - The damp version that can dry back into a regular Lava Sponge.
+- **Prissian** - A beautiful prismarine-style block for building.
+- **Magmarine** - A magical marine-themed block craftable with glowstone.
+- **Magma Lantern** - A bright lantern that provides light.
+
+## Crafting Recipes
+
+- **Magmarine**: Combine prismarine shards, glowstone, and other materials to create this unique block.
+- **Magma Lantern**: Crafted similar to sea lanterns but with magma-related materials.
+
+## Installation
+
+Requires NeoForge. Download from CurseForge or Modrinth.
+
+## Screenshots
+
+![Lava Sponge absorbing lava](link-to-screenshot)
+![Magmarine block](link-to-screenshot)
+![Magma Lantern providing light](link-to-screenshot)
+
+## Version
+
+1.0.0
