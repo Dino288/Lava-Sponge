@@ -29,7 +29,7 @@ public class LavaSpongeMod {
                         output.accept(ModItems.WET_LAVA_SPONGE.get());
                         output.accept(ModItems.PRISMIANE.get());
                         output.accept(ModItems.MAGMARINE.get());
-                        output.accept(ModItems.SEA_LANTERN.get());
+                        output.accept(ModItems.MAGMA_LANTERN.get());
                     })
                     .build());
 

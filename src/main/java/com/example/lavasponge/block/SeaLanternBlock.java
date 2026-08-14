@@ -8,8 +8,9 @@ import net.minecraft.world.level.material.MapColor;
 public class SeaLanternBlock extends Block {
     public SeaLanternBlock() {
         super(BlockBehaviour.Properties.of()
-            .mapColor(MapColor.COLOR_YELLOW)
-            .strength(0.6F)
-            .sound(SoundType.GLASS));
+                .mapColor(MapColor.COLOR_ORANGE)
+                .strength(0.3F)
+                .lightLevel(state -> 15)
+                .sound(SoundType.GLASS));
     }
 }

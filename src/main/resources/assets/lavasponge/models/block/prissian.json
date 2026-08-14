@@ -1,7 +1,6 @@
 {
-  "parent": "builtin/generated",
+  "parent": "minecraft:block/cube_all",
   "textures": {
-    "particle": "lavasponge:block/prissian",
-    "generated": "lavasponge:block/prissian"
+    "all": "lavasponge:block/prissian"
   }
 }

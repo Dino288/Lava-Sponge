@@ -1,7 +1,6 @@
 package com.example.lavasponge.block;
 
 import com.example.lavasponge.LavaSpongeMod;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.MapColor;
@@ -35,11 +34,8 @@ public class ModBlocks {
                     .strength(1.5F)
                     .sound(SoundType.STONE)));
 
-    public static final DeferredBlock<Block> SEA_LANTERN = BLOCKS.register("glowstone",
-            () -> new Block(BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.COLOR_YELLOW)
-                    .strength(0.6F)
-                    .sound(SoundType.GLASS)));
+    public static final DeferredBlock<SeaLanternBlock> MAGMA_LANTERN = BLOCKS.register("magma_lantern",
+            SeaLanternBlock::new);
 
     private ModBlocks() {
     }

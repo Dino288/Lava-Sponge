@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "lavasponge:block/magmarine"
+    "all": "lavasponge:block/magma_lantern"
   }
 }

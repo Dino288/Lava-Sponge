@@ -21,8 +21,8 @@ public class ModItems {
     public static final DeferredItem<BlockItem> MAGMARINE = ITEMS.registerItem("magmarine",
             properties -> new BlockItem(ModBlocks.MAGMARINE.get(), properties));
 
-    public static final DeferredItem<BlockItem> SEA_LANTERN = ITEMS.registerItem("glowstone",
-            properties -> new BlockItem(ModBlocks.SEA_LANTERN.get(), properties));
+    public static final DeferredItem<BlockItem> MAGMA_LANTERN = ITEMS.registerItem("magma_lantern",
+            properties -> new BlockItem(ModBlocks.MAGMA_LANTERN.get(), properties));
 
     private ModItems() {
     }
