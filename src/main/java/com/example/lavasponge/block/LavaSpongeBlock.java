@@ -39,7 +39,7 @@ public class LavaSpongeBlock extends Block {
         boolean isLava = false;
         for (Direction direction : ALL_DIRECTIONS) {
             BlockPos adjacentPos = pos.relative(direction);
-            if (level.getFluidState(adjacentPos).is(Fluids.LAVA)) {
+            if (level.getFluidState(adjacentPos).is(Fluids.LAVA) || level.getFluidState(adjacentPos).is(Fluids.FLOWING_LAVA)) {
                 isLava = true;
                 break;
             }
@@ -83,7 +83,7 @@ public class LavaSpongeBlock extends Block {
                 for (Direction direction : ALL_DIRECTIONS) {
                     BlockPos blockpos1 = blockpos.relative(direction);
                     BlockState blockstate = level.getBlockState(blockpos1);
-                    if (blockstate.getFluidState().is(Fluids.LAVA)) {
+                    if (blockstate.getFluidState().is(Fluids.LAVA) || blockstate.getFluidState().is(Fluids.FLOWING_LAVA)) {
                         level.setBlock(blockpos1, Blocks.AIR.defaultBlockState(), Block.UPDATE_ALL_IMMEDIATE);
                         deque.add(blockpos1);
                         flag = true;
