@@ -2,6 +2,7 @@ package com.example.lavasponge;
 
 import com.example.lavasponge.block.ModBlocks;
 import com.example.lavasponge.item.ModItems;
+import com.example.lavasponge.structure.ModStructures;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -26,12 +27,17 @@ public class LavaSpongeMod {
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.LAVA_SPONGE.get());
                         output.accept(ModItems.WET_LAVA_SPONGE.get());
+                        output.accept(ModItems.PRISMIANE.get());
+                        output.accept(ModItems.MAGMARINE.get());
+                        output.accept(ModItems.SEA_LANTERN.get());
                     })
                     .build());
 
     public LavaSpongeMod(IEventBus modEventBus) {
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
+        ModStructures.STRUCTURE_TYPES.register(modEventBus);
+        ModStructures.STRUCTURE_PIECE_TYPES.register(modEventBus);
         CREATIVE_MODE_TABS.register(modEventBus);
     }
 }

@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "lavasponge:lava_ocean_monument",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 6918324,
+    "spacing": 24,
+    "separation": 8
+  }
+}

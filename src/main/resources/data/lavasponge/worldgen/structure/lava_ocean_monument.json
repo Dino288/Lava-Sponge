@@ -1,0 +1,7 @@
+{
+  "type": "lavasponge:lava_ocean_monument",
+  "biomes": "#minecraft:is_nether",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none"
+}
