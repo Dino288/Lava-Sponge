@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "all":  "lavasponge:block/prissian_stairs"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

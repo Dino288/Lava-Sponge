@@ -1,0 +1,16 @@
+{
+    "key":  {
+                "X":  {
+                          "item":  "lavasponge:prissian_bricks"
+                      }
+            },
+    "pattern":  [
+                    "XX",
+                    "XX"
+                ],
+    "result":  {
+                   "id":  "lavasponge:prissian_tiles",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}

@@ -4,5 +4,12 @@
   "block.lavasponge.lava_sponge_wet": "Wet Lava Sponge",
   "block.lavasponge.prissian": "Prissian",
   "block.lavasponge.magmarine": "Magmarine",
-  "block.lavasponge.magma_lantern": "Magma Lantern"
+  "block.lavasponge.magma_lantern": "Magma Lantern",
+  "block.lavasponge.prissian_bricks": "Prissian Bricks",
+  "block.lavasponge.prissian_chiseled": "Chiseled Prissian",
+  "block.lavasponge.prissian_pillar": "Prissian Pillar",
+  "block.lavasponge.prissian_slab": "Prissian Slab",
+  "block.lavasponge.prissian_stairs": "Prissian Stairs",
+  "block.lavasponge.prissian_tiles": "Prissian Tiles",
+  "block.lavasponge.prissian_wall": "Prissian Wall"
 }

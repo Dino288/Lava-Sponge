@@ -1,0 +1,16 @@
+{
+    "key":  {
+                "X":  {
+                          "item":  "lavasponge:prissian"
+                      }
+            },
+    "pattern":  [
+                    "XXX",
+                    "XXX"
+                ],
+    "result":  {
+                   "id":  "lavasponge:prissian_wall",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shaped"
+}

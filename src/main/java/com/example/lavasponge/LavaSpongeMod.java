@@ -30,6 +30,13 @@ public class LavaSpongeMod {
                         output.accept(ModItems.PRISMIANE.get());
                         output.accept(ModItems.MAGMARINE.get());
                         output.accept(ModItems.MAGMA_LANTERN.get());
+                        output.accept(ModItems.PRISSIAN_BRICKS.get());
+                        output.accept(ModItems.PRISSIAN_CHISELED.get());
+                        output.accept(ModItems.PRISSIAN_PILLAR.get());
+                        output.accept(ModItems.PRISSIAN_SLAB.get());
+                        output.accept(ModItems.PRISSIAN_STAIRS.get());
+                        output.accept(ModItems.PRISSIAN_TILES.get());
+                        output.accept(ModItems.PRISSIAN_WALL.get());
                     })
                     .build());
 
